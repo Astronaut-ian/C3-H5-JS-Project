@@ -178,3 +178,41 @@ a {
 }
 
 /* Recommendation */
+.goods {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+    /* 行高会继承给子元素 */
+    line-height: 60px;
+}
+
+.goods h3 {
+    float: left;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #48a1f8;
+}
+
+.goods ul {
+    float: left;
+    margin-left: 30px;
+}
+
+.goods ul li {
+    float: left;
+}
+
+.goods ul li a {
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+}
+
+.mod {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #48a1f8;
+}
